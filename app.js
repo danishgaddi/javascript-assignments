@@ -1006,22 +1006,22 @@
 // === Task # 9 === //
 
 // === Task # 10 ===
-// function words(){
-//     var word1 = prompt("enter your words");
-//     var checkNow = "";
+function words(){
+    var word1 = prompt("enter your words");
+    var checkNow = "";
 
-// for (var i = word1.length -1; i >= 0; i--){
-//     checkNow+=word1[i];
-// }
-// if (word1 === checkNow){
-//     alert(word1+ " " + "is a palindrome word")
-// }
-// else{
-//     alert(word1+" "+"is not a palindrome word")
+for (var i = word1.length -1; i >= 0; i--){
+    checkNow+=word1[i];
+}
+if (word1 === checkNow){
+    alert(word1+ " " + "is a palindrome word")
+}
+else{
+    alert(word1+" "+"is not a palindrome word")
 
-// }
-// }
-// words();
+}
+}
+words();
 
 // === Task # 11 ===
 // function uppercase(str){
